@@ -68,9 +68,13 @@
 }
 .main-content{
     width: 1440px;
-    margin:0px auto;
+    margin-left: 0px auto;
     display: grid;
     align-items: center;
    justify-content:center;
    grid-template-columns: repeat(3,1fr);
+}
+.main-button{
+    display: flex;
+    justify-content:flex-end;
 }
