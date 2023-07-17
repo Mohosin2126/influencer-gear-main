@@ -66,3 +66,11 @@
     align-items: center;
    gap:40px;
 }
+.main-content{
+    width: 1440px;
+    margin:0px auto;
+    display: grid;
+    align-items: center;
+   justify-content:center;
+   grid-template-columns: repeat(3,1fr);
+}
